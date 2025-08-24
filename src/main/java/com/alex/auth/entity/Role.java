@@ -1,4 +1,4 @@
-package com.alex.bank.entity;
+package com.alex.auth.entity;
 
 import jakarta.persistence.Embeddable;
 import jakarta.persistence.EnumType;

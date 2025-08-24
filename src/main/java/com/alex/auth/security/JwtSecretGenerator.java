@@ -1,4 +1,4 @@
-package com.alex.bank.security;
+package com.alex.auth.security;
 
 import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.io.Encoders;

@@ -1,7 +1,7 @@
-package com.alex.bank.repository;
+package com.alex.auth.repository;
 
 
-import com.alex.bank.entity.User;
+import com.alex.auth.entity.User;
 import org.springframework.data.jpa.repository.EntityGraph;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

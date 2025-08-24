@@ -1,4 +1,4 @@
-package com.alex.bank.dto;
+package com.alex.auth.dto;
 
 import java.util.List;
 

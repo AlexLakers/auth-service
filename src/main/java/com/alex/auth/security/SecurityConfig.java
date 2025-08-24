@@ -1,6 +1,6 @@
-package com.alex.bank.security;
+package com.alex.auth.security;
 
-import com.alex.bank.filter.JwtAuthFilter;
+import com.alex.auth.filter.JwtAuthFilter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

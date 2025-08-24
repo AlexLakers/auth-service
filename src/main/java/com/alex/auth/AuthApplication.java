@@ -1,4 +1,4 @@
-package com.alex.bank;
+package com.alex.auth;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

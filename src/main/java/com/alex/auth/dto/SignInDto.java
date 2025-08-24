@@ -1,4 +1,4 @@
-package com.alex.bank.dto;
+package com.alex.auth.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

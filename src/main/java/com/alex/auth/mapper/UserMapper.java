@@ -1,12 +1,12 @@
-package com.alex.bank.mapper;
+package com.alex.auth.mapper;
 
-import com.alex.bank.dto.JwtDto;
-import com.alex.bank.dto.SignUpDto;
-import com.alex.bank.dto.UserDto;
-import com.alex.bank.entity.Role;
-import com.alex.bank.entity.RoleName;
-import com.alex.bank.entity.User;
-import com.alex.bank.security.SecurityUser;
+import com.alex.auth.dto.JwtDto;
+import com.alex.auth.dto.SignUpDto;
+import com.alex.auth.dto.UserDto;
+import com.alex.auth.entity.Role;
+import com.alex.auth.entity.RoleName;
+import com.alex.auth.entity.User;
+import com.alex.auth.security.SecurityUser;
 import lombok.RequiredArgsConstructor;
 import org.mapstruct.*;
 import org.springframework.beans.factory.annotation.Autowired;

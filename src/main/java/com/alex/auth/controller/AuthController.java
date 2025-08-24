@@ -1,12 +1,12 @@
-package com.alex.bank.controller;
+package com.alex.auth.controller;
 
-import com.alex.bank.dto.JwtDto;
-import com.alex.bank.dto.SignInDto;
-import com.alex.bank.dto.SignUpDto;
-import com.alex.bank.dto.UserDto;
-import com.alex.bank.entity.User;
-import com.alex.bank.service.UserDetailsService;
-import com.alex.bank.service.UserService;
+import com.alex.auth.dto.JwtDto;
+import com.alex.auth.dto.SignInDto;
+import com.alex.auth.dto.SignUpDto;
+import com.alex.auth.dto.UserDto;
+import com.alex.auth.entity.User;
+import com.alex.auth.service.UserDetailsService;
+import com.alex.auth.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;

@@ -1,7 +1,7 @@
-package com.alex.bank.service;
+package com.alex.auth.service;
 
-import com.alex.bank.entity.User;
-import com.alex.bank.repository.UserRepository;
+import com.alex.auth.entity.User;
+import com.alex.auth.repository.UserRepository;
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;

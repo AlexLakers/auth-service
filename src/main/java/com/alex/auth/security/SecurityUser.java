@@ -1,4 +1,4 @@
-package com.alex.bank.security;
+package com.alex.auth.security;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

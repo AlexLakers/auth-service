@@ -1,7 +1,7 @@
-package com.alex.bank.filter;
+package com.alex.auth.filter;
 
-import com.alex.bank.service.JwtService;
-import com.alex.bank.service.UserDetailsService;
+import com.alex.auth.service.JwtService;
+import com.alex.auth.service.UserDetailsService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

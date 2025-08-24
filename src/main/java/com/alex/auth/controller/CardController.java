@@ -1,4 +1,4 @@
-package com.alex.bank.controller;
+package com.alex.auth.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;

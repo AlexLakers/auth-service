@@ -1,13 +1,13 @@
-package com.alex.bank.service;
+package com.alex.auth.service;
 
-import com.alex.bank.dto.JwtDto;
-import com.alex.bank.dto.SignInDto;
-import com.alex.bank.dto.SignUpDto;
-import com.alex.bank.dto.UserDto;
-import com.alex.bank.entity.User;
-import com.alex.bank.mapper.UserMapper;
-import com.alex.bank.repository.UserRepository;
-import com.alex.bank.security.SecurityUser;
+import com.alex.auth.dto.JwtDto;
+import com.alex.auth.dto.SignInDto;
+import com.alex.auth.dto.SignUpDto;
+import com.alex.auth.dto.UserDto;
+import com.alex.auth.entity.User;
+import com.alex.auth.mapper.UserMapper;
+import com.alex.auth.repository.UserRepository;
+import com.alex.auth.security.SecurityUser;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

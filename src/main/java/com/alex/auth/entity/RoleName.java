@@ -1,4 +1,4 @@
-package com.alex.bank.entity;
+package com.alex.auth.entity;
 
 public enum RoleName {
     ADMIN,
