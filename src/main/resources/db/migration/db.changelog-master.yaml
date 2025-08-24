@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: db/migration/db.changelog-0.1-init.sql
+      context: dev
+  - include:
+      file: db/migration/db.changelog-0.2-data.sql
+      context: dev

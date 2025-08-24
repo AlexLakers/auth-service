@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: adminbank
+    password: AdminBank
+    url: jdbc:postgresql://localhost:5433/bank_storage
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+    open-in-view: false
+  liquibase:
+    contexts: dev
+    change-log: db/migration/db.changelog-master.yaml
+server:
+  port: 8081
